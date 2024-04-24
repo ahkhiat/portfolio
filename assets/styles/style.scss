@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  background: hsl(187, 40%, 98%);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: solid green;
+}
+
+#screen1 {
+  display: flex;
+  height: 100vh;
+}
+#screen2 {
+  display: flex;
+  height: 100vh;
+}
+#screen3 {
+  // height: 100vh;
+}
+
+.message-container {
+  width: 80vw;
+  text-align: left;
+  margin : 30vh auto;
+}
+
+.social-container {
+  width: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.typewrite {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1280px) {
+  
+}
+
+
+
+@import 'burger';
+@import 'cards';
+
+
+ 
+
