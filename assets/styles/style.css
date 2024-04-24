@@ -9,7 +9,12 @@ body {
   gap: 2rem;
   justify-content: center;
   align-items: center;
-  background: hsl(187, 40%, 98%);
+  background: #292c35 !important;
+  color: rgb(174, 185, 197) !important;
+}
+
+.fa-brands {
+  color: rgb(174, 185, 197);
 }
 
 a {
@@ -42,6 +47,12 @@ h2 {
   width: 80vw;
   text-align: left;
   margin: 30vh auto;
+}
+.message-container .bonjour-container {
+  height: 25vh;
+}
+.message-container .bonjour-container p {
+  font-size: 20px;
 }
 
 .social-container {
