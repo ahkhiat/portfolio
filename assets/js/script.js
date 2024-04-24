@@ -1,5 +1,6 @@
 console.log('script chargé');
 
+/* ------------------------------ Typing effect ----------------------------- */
 class TxtType {
     constructor(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -60,3 +61,5 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+/* -------------------------- End of typing effect -------------------------- */
+

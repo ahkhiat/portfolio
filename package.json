@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "build": "sass --watch assets/styles/style.scss assets/styles/style.css"
+  },
   "dependencies": {
+    "sass": "^1.75.0",
     "scss": "^0.2.4"
   }
+  
+
 }
