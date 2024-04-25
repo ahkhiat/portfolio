@@ -5,7 +5,8 @@
   "dependencies": {
     "sass": "^1.75.0",
     "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
   }
-  
-
 }
