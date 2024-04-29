@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  $base-color: rgb(174, 185, 197);
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    // background: hsl(0, 0%, 73%);
+    background: #292c35 !important;
+    color: $base-color ;
+  }
+  
+  .fa-brands {
+    color: $base-color;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: $base-color !important;
+  }
+  
+  #screen1 {
+    display: flex;
+    height: 100vh;
+  }
+  #screen2 {
+    display: flex;
+    height: 100vh;
+  }
+  #screen3 {
+    // height: 100vh;
+  }
+  
+  .message-container {
+    width: 80vw;
+    text-align: left;
+    margin : 30vh auto;
+  
+  
+  .bonjour-container {
+    height: 25vh;
+    color: $base-color;
+    p {
+      font-size: 20px;
+    }
+  }}
+  
+  .social-container {
+    width: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .typewrite {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .typewrite {
+      font-size: 2rem !important;
+    }
+  }
